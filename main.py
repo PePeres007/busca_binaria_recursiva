@@ -6,7 +6,7 @@ def busca_binaria(lista, alvo, quant_comp=0):
 		meio = (inicio + fim + 1) // 2
 		if lista[meio] == (alvo):
 			print(quant_comp)
-			return (meio, quant_comp)
+			return (meio, quant_comp)S
 		elif lista[meio] < alvo:
 			inicio = meio + 1
 		else:
